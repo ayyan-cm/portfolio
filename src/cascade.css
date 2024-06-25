@@ -1,0 +1,113 @@
+/* styles for header */
+.container-header{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(176, 212, 245);
+    border-radius: 15px 15px 0 0;
+}
+
+.container-header div{
+    margin: 20px;
+}
+
+.container-header nav{
+    padding-top: 30px;
+}
+
+.container-header nav a{
+    padding: 0px 20px;
+    color: rgb(164, 164, 164);
+    text-decoration: none;
+    font-size: medium;
+}
+
+.container-header nav a:hover{
+    color: black;
+    scale: 1.3;
+}
+
+.container-header #nameHeader{
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+/* Styles for main */
+
+    /*Styles for Intro */
+.container-Intro{
+    display: flex;
+    justify-content: center;
+    margin: 125px;
+}
+
+.container-Intro > div{
+    height: 250px;
+    text-align: center;
+    margin: 25px;
+}
+
+.container-Intro .sub-container-overview{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+    /*Styles for Experience */
+.container-Experience{
+    background-color: transparent;
+}
+
+.sub-container-Projects{
+    display: flex;
+}
+
+.sub-container-Projects .projects-box{
+    width: 500px;
+    height: 250px;
+    margin: 5px;
+    background-color: lightcyan;
+}
+
+    /*Styles for About */
+.container-About{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-About div{
+    margin: 10px 15vh 10px 15vh;
+}
+
+/* Styles for footer */
+.container-footer{
+    text-align: center;
+    margin: 0;
+    background-color: rgb(176, 212, 245);
+    border-radius: 0 0 15px 15px;
+}
+
+.container-Contact ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.container-Contact ul > li{
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+.container-Contact img{
+    width: 30px;    
+}
+
+/*Others*/
+.padding-20x-left{
+    padding-left: 20px;
+}
+
+li{
+    padding-top: 10px;
+}
